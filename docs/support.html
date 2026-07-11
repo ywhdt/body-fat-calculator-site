@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="体脂率计算应用技术支持与常见问题。">
+  <title>技术支持｜体脂率计算</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="index.html">体脂率计算</a>
+      <nav aria-label="主导航">
+        <a href="privacy.html">隐私政策</a>
+        <a aria-current="page" href="support.html">技术支持</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <p class="eyebrow">Support</p>
+      <h1>技术支持</h1>
+      <p class="lede">遇到计算、输入或历史记录问题，可以先查看下面的常见解决方法；仍未解决时请直接联系开发者。</p>
+      <div class="actions">
+        <a class="button button--primary" href="mailto:ywhdt_zh@outlook.com?subject=%E4%BD%93%E8%84%82%E7%8E%87%E8%AE%A1%E7%AE%97%20iOS%20%E6%94%AF%E6%8C%81">发送支持邮件</a>
+        <a class="button" href="https://github.com/ywhdt/body-fat-calculator-site/issues/new">提交 GitHub Issue</a>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>常见问题</h2>
+
+      <h3>如何输入多次读数？</h3>
+      <p>每个测量部位至少输入两次皮褶读数，使用逗号、空格、分号或顿号分隔。应用会自动取平均值；如果同一部位的读数差异较大，会提示重新测量。</p>
+
+      <h3>为什么应用拒绝这组读数？</h3>
+      <p>请先确认每个部位都有至少两次有效读数。三处平均读数的总和超过 120 mm 时，已超出当前模型在应用中的输入边界，应用不会生成可能误导的结果。</p>
+
+      <h3>为什么我的结果与其他设备不同？</h3>
+      <p>皮褶夹位置、夹取力度、读数时间、公式和人群模型都会造成差异。请尽量由同一人在相同条件下测量，并把结果用于趋势参考，不要把单次估算当作医疗结论。</p>
+
+      <h3>没有网络还能使用吗？</h3>
+      <p>可以。计算和历史记录都在设备上完成，不需要账号或网络连接。</p>
+
+      <h3>如何删除历史记录？</h3>
+      <p>进入“历史记录”，可以删除单条记录；点击工具栏中的“清空”并确认，可以删除全部历史记录。</p>
+
+      <h3>支持哪些设备？</h3>
+      <p>1.0 版本面向运行 iOS 15 或更高版本的 iPhone。iPad 原生布局计划在后续版本评估。</p>
+    </section>
+
+    <section class="card">
+      <h2>联系时请附上</h2>
+      <ul>
+        <li>应用版本与 build 编号</li>
+        <li>iPhone 型号与 iOS 版本</li>
+        <li>可复现问题的操作步骤</li>
+        <li>必要时附界面截图，但请遮盖你不希望公开的信息</li>
+      </ul>
+      <p>请不要通过公开 Issue 提交个人健康信息。应用没有远程日志，开发者无法直接查看你设备上的测量或历史数据。</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a href="index.html">返回首页</a>
+    <span aria-hidden="true"> · </span>
+    <a href="privacy.html">隐私政策</a>
+  </footer>
+</body>
+</html>
