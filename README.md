@@ -1,6 +1,6 @@
 # Body Fat Calculator support site
 
-Public privacy-policy and technical-support pages for the free iOS app **体脂率计算**.
+Public privacy-policy and technical-support pages for the free iOS app **皮褶体脂计算器**.
 
 - Website: <https://ywhdt.github.io/body-fat-calculator-site/>
 - Privacy policy: <https://ywhdt.github.io/body-fat-calculator-site/privacy.html>
