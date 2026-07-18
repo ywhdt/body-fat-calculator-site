@@ -1,9 +1,9 @@
-# Body Fat Calculator support site
+# Skinfold support site
 
-Public privacy-policy and technical-support pages for the free iOS app **皮褶体脂计算器**.
+Public website, privacy policy, and technical support for the free iOS app **Skinfold**.
 
-- Website: <https://ywhdt.github.io/body-fat-calculator-site/>
-- Privacy policy: <https://ywhdt.github.io/body-fat-calculator-site/privacy.html>
-- Technical support: <https://ywhdt.github.io/body-fat-calculator-site/support.html>
+- 简体中文: <https://ywhdt.github.io/body-fat-calculator-site/>
+- English: <https://ywhdt.github.io/body-fat-calculator-site/en/>
+- 日本語: <https://ywhdt.github.io/body-fat-calculator-site/ja/>
 
-The site is static, contains no advertising or analytics scripts, and does not receive measurement data from the app.
+The site is static, contains no advertising or analytics scripts, and does not receive measurement data from the app. Each language includes its own privacy-policy and support pages.
